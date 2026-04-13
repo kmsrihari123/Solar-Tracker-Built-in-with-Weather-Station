@@ -24,23 +24,25 @@ The Arduino handles physical solar panel tracking using LDR sensors and servo mo
 
 ---
 
-**HARDWARE COMPONENT**
-|--------------------------------|----------|------------------------------------------|
-| Component                      | Quantity |               Purpose                    |
-|--------------------------------|----------|------------------------------------------|                                         
-| Arduino Uno                    |     1    |      Solar tracking controller           |
-| ESP32                          |     1    |      Weather station + IoT Cloud         |
-| LDR (Light Dependent Resistor) |     4    |      Sun position sensing                |
-| Servo Motor (SG90/MG996R)      |     2    |      Horizontal & Vertical axis          |
-| I2C LCD 16x2 (0x27)            |     1    |      Menu display                        |
-| Rotary Encoder (KY-040)        |     1    |      Menu navigation                     |
-| DHT11                          |     1    |      Temperature & Humidity              |
-| BMP280                         |     1    |      Atmospheric Pressure                |
-| 18650 Li-ion Battery           |     2    |      Power supply                        |
-| Buck/Boost Converter           |     1    |      Voltage regulation                  |
-| 10kΩ Resistors                 |     4    |      LDR voltage dividers                |
-|--------------------------------|----------|------------------------------------------|
+## Hardware Components
+
+| Component | Quantity | Purpose |
+|---|---|---|
+| Arduino Uno | 1 | Solar tracking controller |
+| ESP32 | 1 | Weather station + IoT Cloud |
+| LDR (Light Dependent Resistor) | 4 | Sun position sensing |
+| Servo Motor (SG90/MG996R) | 2 | Horizontal & Vertical axis |
+| I2C LCD 16x2 (0x27) | 1 | Menu display |
+| Rotary Encoder (KY-040) | 1 | Menu navigation |
+| DHT11 | 1 | Temperature & Humidity |
+| BMP280 | 1 | Atmospheric Pressure |
+| 18650 Li-ion Battery | 2 | Power supply |
+| Buck/Boost Converter | 1 | Voltage regulation |
+| 10kΩ Resistors | 4 | LDR voltage dividers |
+
 ---
+
+## Pin Configuration
 
 **PIN CONFIGURATION**
 ARDUINO UNO
