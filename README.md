@@ -44,9 +44,7 @@ The Arduino handles physical solar panel tracking using LDR sensors and servo mo
 
 ## Pin Configuration
 
-**PIN CONFIGURATION**
 ARDUINO UNO
------------------------------------------
 A0          → LDR Top-Left
 A1          → LDR Top-Right
 A2          → LDR Bottom-Left
@@ -63,10 +61,7 @@ RX0         → ESP32 TX
 TX1         → ESP32 RX
 5V          → LCD VCC, Encoder VCC
 GND         → LCD GND, Encoder GND
-
------------------------------------------
 ESP32
------------------------------------------
 GPIO 4      → DHT11 Data
 GPIO 21     → BMP280 SDA
 GPIO 22     → BMP280 SCL
@@ -74,13 +69,9 @@ TX          → Arduino RX0
 RX          → Arduino TX1
 3.3V        → BMP280 VCC, DHT11 VCC
 GND         → BMP280 GND, DHT11 GND
-
------------------------------------------
 POWER
------------------------------------------
 2x 18650    → Buck/Boost Converter IN
 Converter   → Arduino VIN + Servo Power
-=========================================
 
 **LIBRARIES USED**
 
